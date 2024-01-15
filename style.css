@@ -123,10 +123,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgba(103, 104, 104, 0.39);
+    background-color: rgba(103, 104, 104, 0.493);
     width: 60%;
     margin: 0 auto;
     border-radius: 20px;
+    margin-bottom: 35px;
 }
 
 .where-btn {
@@ -225,15 +226,16 @@ header {
     }
     .where-btn {
         width: 100%;
-        padding: 8px 100px;
+        padding: 12px 100px;
     }
     .primary-btn {
         width: 100%;
-        padding: 8px 100px;
+        padding: 12px 100px;
     }
     .find-btn {
         width: 100%;
-        padding: 8px 100px;
+        padding: 12px 100px;
+        
     }
     
 
