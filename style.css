@@ -43,12 +43,12 @@ header {
 
 .nav-item li {
     list-style: none;
-    
+
 }
 
 .nav-item li a {
     text-decoration: none;
-    
+
     gap: 13px;
     padding: 8px 16px;
     color: #424247;
@@ -60,13 +60,13 @@ header {
     line-height: normal;
     transition: .4s;
 }
+
 .nav-item li a:hover {
     color: #424247;
     border-radius: 12px;
-   
-    
+
+
     background-color: rgb(230, 236, 241);
-    
 }
 
 .bar {
@@ -75,6 +75,122 @@ header {
     visibility: hidden;
 }
 
+/* banner section start here */
+
+header {
+    margin-bottom: 50px;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("images/group-13.png");
+    border-radius: 10px;
+    /* height: 500px; */
+    padding: 10px;
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 100px;
+    background-size: cover;
+}
+
+.banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    padding: 60px;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-text p {
+    width: 60%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.banner-btn {
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(103, 104, 104, 0.39);
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.where-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 58px 10px 7px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.primary-btn {
+    padding: 10px 58px 10px 7px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+
+}
+.btn-div{
+    position: relative;
+}
+
+.banner-btn .fa-caret-down {
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    color: black;
+    
+    
+}
+
+.find-btn {
+    padding: 10px 15px 10px 48px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: Mulish;
+    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FF5400;
+
+}
+
+.banner-btn .fa-magnifying-glass {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
 
 /* responsive for mobile device  */
 @media screen and (max-width: 600px) {
@@ -82,12 +198,49 @@ header {
         display: none;
 
     }
-    
+
     .bar {
-       margin-left: 150px;
+        margin-left: 150px;
         visibility: visible;
     }
-  
+    .banner-text h1 {
+        padding: 0;
+        font-size: 2.5rem;
+        padding-bottom: 30px;
+    }
+    .banner-text p {
+        width: 100%;
+    }
+    .banner-btn {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+       
+        gap: 20px;
+        
+    }
+    .btn-div{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .where-btn {
+        width: 100%;
+        padding: 8px 100px;
+    }
+    .primary-btn {
+        width: 100%;
+        padding: 8px 100px;
+    }
+    .find-btn {
+        width: 100%;
+        padding: 8px 100px;
+    }
     
+
+
     
+   
+
+
+
 }
