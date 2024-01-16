@@ -305,45 +305,51 @@ header {
 .grid-img-1 {
     background-image: url("images/rectangle-5.png");
     grid-column: 1/span 6;
+    height: 300px;
+    
 }
 .grid-img-2 {
     background-image: url("images/rectangle-8.png");
     grid-column: 7/span 6;
-
+    height: 300px;
 }
 .grid-img-3 {
     background-image: url("images/rectangle-6.png");
-    grid-column: 1/span 4;
+    grid-column: 1/span 3;
     height: 300px;
-
 }
 
 .grid-img-4 {
     background-image: url("images/rectangle-7.png");
-    grid-column: 5/span 4;
+    grid-column: 4/span 5;
+    height: 300px;
 
 }
 
 .grid-img-5 {
     background-image: url("images/rectangle-9.png");
-    grid-column: 9/span 4;
+    grid-column: 9/span 3;
+    height: 300px;
 
 }
 
 .grid-img-6 {
     background-image: url("images/rectangle-11.png");
     grid-column: 1/span 6;
+    height: 300px;
 }
 
 .grid-img-7 {
     background-image: url("images/rectangle-10.png");
     grid-column: 7/span 6;
+    height: 300px;
 }
 
 
 
 
 .grid-img {
+    border-radius: 20px;
     background-repeat: no-repeat;
     /* background-size: cover; */
     width: 100%;
@@ -444,6 +450,48 @@ header {
 
         left: 32%;
     }
+    .grid-img-container {
+        grid-template-columns: 1fr;
+    }
+    .grid-img-1 {
+        background-image: url("images/rectangle-5.png");
+        grid-column: 1/span 12;
+        
+    }
+    .grid-img-2 {
+        background-image: url("images/rectangle-8.png");
+        grid-column: 1/span 12;
+    
+    }
+    .grid-img-3 {
+        background-image: url("images/rectangle-6.png");
+        grid-column: 1/span 12;
+        
+    
+    }
+    
+    .grid-img-4 {
+        background-image: url("images/rectangle-7.png");
+        grid-column: 1/span 12;
+    
+    }
+    
+    .grid-img-5 {
+        background-image: url("images/rectangle-9.png");
+        grid-column: 1/span 12;
+    
+    }
+    
+    .grid-img-6 {
+        background-image: url("images/rectangle-11.png");
+        grid-column: 1/span 12;
+    }
+    
+    .grid-img-7 {
+        background-image: url("images/rectangle-10.png");
+        grid-column: 1/span 12;
+    }
+    
 
 
 
