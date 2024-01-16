@@ -303,35 +303,35 @@ header {
 }
 
 .grid-img-1 {
-    background-image: url("images/rectangle-5.png");
+    background-image: url("./images/rectangle-5.png");
     grid-column: 1/span 6;
     height: 300px;
 
 }
 
 .grid-img-2 {
-    background-image: url("images/rectangle-8.png");
+    background-image: url("./images/rectangle-8.png");
     grid-column: 7/span 6;
     height: 300px;
 
 }
 
 .grid-img-3 {
-    background-image: url("images/rectangle-6.png");
+    background-image: url("./images/rectangle-6.png");
     grid-column: 1/span 4;
     height: 300px;
 
 }
 
 .grid-img-4 {
-    background-image: url("images/rectangle-7.png");
+    background-image: url("./images/rectangle-7.png");
     grid-column: 5/span 5;
     height: 300px;
 
 }
 
 .grid-img-5 {
-    background-image: url("images/rectangle-9.png");
+    background-image: url("./images/rectangle-9.png");
     grid-column: 10/span 3;
     height: 300px;
 
@@ -339,13 +339,13 @@ header {
 }
 
 .grid-img-6 {
-    background-image: url("images/rectangle-11.png");
+    background-image: url("./images/rectangle-11.png");
     grid-column: 1/span 6;
     height: 300px;
 }
 
 .grid-img-7 {
-    background-image: url("images/rectangle-10.png");
+    background-image: url("./images/rectangle-10.png");
     grid-column: 7/span 6;
     height: 300px;
 }
