@@ -7,6 +7,7 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Mulish', sans-serif;
 }
+
 .find-btn::placeholder {
     color: white;
 }
@@ -161,7 +162,7 @@ header {
     line-height: normal;
     position: relative;
 
-}  
+}
 
 .btn-div {
     position: relative;
@@ -177,7 +178,7 @@ header {
 }
 
 .find-btn {
-    padding: 10px 5px ;
+    padding: 10px 5px;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -265,6 +266,115 @@ header {
     line-height: normal;
 }
 
+
+/* destination section start here */
+.tours-destination-section {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.destination-text {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.destination-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.destination-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.grid-img-1 {
+    background-image: url("images/rectangle-5.png");
+    grid-column: 1/span 6;
+}
+.grid-img-2 {
+    background-image: url("images/rectangle-8.png");
+    grid-column: 7/span 6;
+
+}
+.grid-img-3 {
+    background-image: url("images/rectangle-6.png");
+    grid-column: 1/span 4;
+    height: 300px;
+
+}
+
+.grid-img-4 {
+    background-image: url("images/rectangle-7.png");
+    grid-column: 5/span 4;
+
+}
+
+.grid-img-5 {
+    background-image: url("images/rectangle-9.png");
+    grid-column: 9/span 4;
+
+}
+
+.grid-img-6 {
+    background-image: url("images/rectangle-11.png");
+    grid-column: 1/span 6;
+}
+
+.grid-img-7 {
+    background-image: url("images/rectangle-10.png");
+    grid-column: 7/span 6;
+}
+
+
+
+
+.grid-img {
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    color: #FFF;
+    /* padding: 200px; */
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-size: auto;
+   
+}
+.grid-img-container {
+
+    border-color: #FF5400;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-bottom: 100px;
+    gap: 20px;
+    
+}
+
 /* responsive for mobile device  */
 @media screen and (max-width: 600px) {
     .nav-item ul {
@@ -292,7 +402,7 @@ header {
         padding: 0;
         width: 100%;
 
-        
+
 
     }
 
@@ -316,18 +426,22 @@ header {
         padding: 12px 100px;
 
     }
+
     .tours-description-section {
         flex-direction: column;
     }
+
     .tours-desc {
         width: 100%;
     }
+
     .tours-img {
         width: 100%;
     }
+
     .banner-btn .fa-magnifying-glass {
-       
-        
+
+
         left: 32%;
     }
 
