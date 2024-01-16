@@ -498,44 +498,44 @@ header {
     }
 
     .grid-img-1 {
-        background-image: url("images/rectangle-5.png");
+   
         grid-column: 1/span 12;
 
     }
 
     .grid-img-2 {
-        background-image: url("images/rectangle-8.png");
+     
         grid-column: 1/span 12;
 
     }
 
     .grid-img-3 {
-        background-image: url("images/rectangle-6.png");
+
         grid-column: 1/span 12;
 
 
     }
 
     .grid-img-4 {
-        background-image: url("images/rectangle-7.png");
+
         grid-column: 1/span 12;
 
     }
 
     .grid-img-5 {
-        background-image: url("images/group-40089.png");
+ 
         grid-column: 1/span 12;
 
 
     }
 
     .grid-img-6 {
-        background-image: url("images/rectangle-11.png");
+ 
         grid-column: 1/span 12;
     }
 
     .grid-img-7 {
-        background-image: url("images/rectangle-10.png");
+       
         grid-column: 1/span 12;
     }
 
