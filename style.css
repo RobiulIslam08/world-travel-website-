@@ -136,7 +136,7 @@ header {
 .where-btn {
     background-color: rgb(255, 255, 255);
     padding: 10px 5px;
-    outline: none;
+    /* outline: none; */
     border: none;
     border-radius: 10px;
     text-align: left;
@@ -150,7 +150,7 @@ header {
 
 .primary-btn {
     padding: 10px 5px;
-    outline: none;
+    /* outline: none; */
     border: none;
     border-radius: 10px;
     color: rgba(19, 19, 24, 0.50);
